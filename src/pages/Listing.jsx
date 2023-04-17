@@ -164,7 +164,7 @@ export default function Listing() {
               position={[listing.geolocation.lat, listing.geolocation.lng]}
             >
               <Popup>
-              {listing.address}
+                {listing.address}
               </Popup>
             </Marker>
           </MapContainer>
